@@ -1,0 +1,85 @@
+body{
+    background-image: url(background2.jpeg);
+    background-repeat: no-repeat;
+    width: 99%;
+    background-size: cover;
+    background-position: center;
+    color:white
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 2cm;
+    background: linear-gradient(transparent, 50%, rgb(73, 206, 216));
+    animation: title  8s alternate infinite;
+   
+}
+
+
+@keyframes title{
+    0%
+    {
+        width: 50%;
+    }
+    100%
+    {
+        width: 100%;
+    }
+}
+
+
+.gap{
+    color: lightblue;
+    text-decoration: none;
+}
+
+
+.gap:hover{
+    color: rgba(199, 209, 212, 0.699);
+    text-decoration: none;
+}
+
+.head-background{
+    color:aquamarine;
+}
+
+
+#sommaire{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+footer{
+    background-color: black;
+    background: linear-gradient(transparent, 50%, rgb(73, 206, 216));
+}
+
+.lien {
+    color: rgb(17, 17, 49)
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+*{
+    font-family: serif;
+}
+
+.list{
+    list-style-type: square;
+}
+
+#présentation  img{
+    opacity: 90%;
+}
+
+#expérience img{
+    opacity: 90%;
+}
